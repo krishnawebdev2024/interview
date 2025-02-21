@@ -4,7 +4,7 @@ const Grid = () => {
   return (
     <div>
       <div className="p-8">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-6 gap-4">
           <div className="bg-blue-500 text-white p-4 rounded">Grid Item 1</div>
           <div className="bg-green-500 text-white p-4 rounded ">
             Grid Item 2

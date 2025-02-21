@@ -4,7 +4,7 @@ import UserContext from "./userContext";
 const FinalOutput = () => {
   const { finalData, setFinalData } = useContext(UserContext);
 
-  const onclick = () => {
+  const ClearOnclick = () => {
     setFinalData({ name: "", email: "" });
   };
 
@@ -16,10 +16,10 @@ const FinalOutput = () => {
   return (
     <div className="flex flex-col space-y-4 max-w-md mx-auto shadow-sm p-4 border border-blue-500 rounded-lg">
       <h2 className="text-lg font-bold">Final Output</h2>
-      <p>Name: {finalData.name || "Not yet Name"}</p>
-      <p>Email: {finalData.email || "Not yet Email"}</p>
+      <p>Name: {finalData.name ? finalData.name : "Not yet Name"}</p>
+      <p>Email: {finalData.email ? finalData.email : "Not yet Email"}</p>
       <button
-        onClick={onclick}
+        onClick={ClearOnclick}
         className="p-2 bg-blue-500 text-white rounded hover:bg-blue-700"
       >
         Clear

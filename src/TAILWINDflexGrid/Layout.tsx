@@ -2,7 +2,7 @@ const Layout = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-400">
       {/* Main Wrapper */}
-      <div className="w-full max-w-[1080px] bg-white shadow-md rounded-lg p-4">
+      <div className="w-full max-w-7xl bg-white shadow-md rounded-lg p-4">
         <header className="text-center text-2xl font-bold">My Website</header>
 
         {/* Content */}

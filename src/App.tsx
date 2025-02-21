@@ -6,8 +6,9 @@ import Grid from "./TAILWINDflexGrid/Grid";
 import Flex from "./TAILWINDflexGrid/Flex";
 import PositionExample from "./TAILWINDflexGrid/PositionExample";
 import Layout from "./TAILWINDflexGrid/Layout"; // Import Layout
-import TryCatch from "./TryCatchAsyncAwait/TryCatch.jsx";
-
+import TryCatch from "./TryCatchAsyncAwait/TryCatch";
+import Fetch from "./draft/Fetch"; // Import Fetch
+import FormComponent from "./FormInput/FormComponent";
 const App = () => {
   return (
     <div className="min-h-screen min-w-screen ">
@@ -16,9 +17,13 @@ const App = () => {
         <FinalOutput />
         <Grid />
         <Flex />
+        <Grid />
+        <Flex />
         <PositionExample />
         <Layout />
         <TryCatch />
+        <Fetch />
+        <FormComponent />
       </UserContextProvider>
     </div>
   );
